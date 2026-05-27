@@ -21,7 +21,7 @@ dependencies {
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
     implementation(project(":tooling"))
-    implementation(libs.aicore)
+    implementation(libs.mlkit.genai)
     testImplementation(libs.junit)
     testImplementation(libs.kotlinx.coroutines.test)
 }
